@@ -6,25 +6,29 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <img class="site-header--logo" src="img/logo_1.png" alt="Bikees logo" >
-    <form class="site-header--search-form" action="#">
-      <input class="site-header--search-text" type="text">
-      <button class="site-header--search-button" type="submit"></button>
-    </form>
-  </header> 
+  <div class="header-container">
+    <header class="site-header">
+      <img class="site-header--logo" src="img/logo_1.png" alt="Bikees logo" >
+      <form class="site-header--search-form" action="#">
+        <input class="site-header--search-text" type="text">
+        <button class="site-header--search-button" type="submit"></button>
+      </form>
+    </header> 
+  </div>
   <main class="site-content">
     <ul class="site-content--items-list">
-      <li class="site-content--item">
+      <li class="site-content--item item-1">
+        <div class="site-content--item-gradient gradient-1"></div>
         <img class="site-content--item-logo" src="img/item_logo_1.png" alt="Fixies Hisper Style">
-        <button>
-          Choisir son modèle
+        <button class="site-content--choose-button">
+          <span>Choisir son modèle</span>
         </button>
       </li>
-      <li class="site-content--item">
+      <li class="site-content--item item-2">
+        <div class="site-content--item-gradient gradient-2"></div>
         <img class="site-content--item-logo" src="img/item_logo_2.png" alt="Cruisers Hippie Style">
-        <button>
-          Choisir son modèle
+        <button class="site-content--choose-button">
+          <span>Choisir son modèle</span>
         </button>
       </li>
     </ul>
