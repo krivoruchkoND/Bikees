@@ -1,3 +1,39 @@
 body{
+  margin: 0;
+  padding: 0;
   background-color: lightgrey;
+}
+.site-header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 63px 86px 52px 85px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.site-header--logo{
+  height: 59px;
+}
+.site-header--search-form{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.site-header--search-text{
+  display: none;
+}
+.site-header--search-button{
+  width: 61px;
+  height: 63px;
+  padding: 0;
+  border: none;
+  background: url(img/search-icon.png) no-repeat 50% 50%;
+}
+
+.site-content,
+.site-footer{
+  display: none;
 }
